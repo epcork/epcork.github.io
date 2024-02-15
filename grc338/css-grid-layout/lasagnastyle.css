@@ -18,8 +18,15 @@ div.container {
 	background-color: rgb (255,255,255);
 }
 
+figure {
+	display: grid;
+	grid-template-columns: 3.5fr 1fr;
+	grid-column-gap: 1em;
+	margin-bottom: 2em;
+}
+
 body {
-	background-color: RGB (222,222,222);
+	background-color: rgb(222,222,222);
 }
 	
 main {
